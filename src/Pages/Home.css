@@ -1,0 +1,133 @@
+
+.all-trending{
+    display: flex;
+}
+.homeswitcher{
+    width: 85%;
+    margin: 100px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+}
+
+.homeswitcher a{
+    padding: 0px 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(104, 100, 100);
+}
+.homeswitcher a::after{
+    content: "";
+    background: rgb(150, 147, 147);
+    width: 0;
+    height: 3px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.homeswitcher a:hover::after{
+    width: 100%;
+}
+
+.fader-line{
+    margin-top: 20px;
+    opacity: 0.2;
+}
+.left-main{
+    place-items: center;
+    left: 0;
+    width: 75%;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.118);
+    margin-bottom: 50px;
+    min-height: 57vh;
+    
+}
+.left-main-border{
+    padding: 5%;
+    width: 100%;
+    
+}
+#load-more{
+    text-decoration: none;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    color: black;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+.home-separator{
+   display: flex; 
+
+}
+
+.right-main{
+    width: 30%;
+    height: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 50px;
+    top: 50px;
+    margin-left: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    
+    
+}
+
+#no-post{
+    position: relative;
+    text-align: center;
+    top: 50%;
+}
+
+@media only screen and (max-width: 768px){
+    .all-trending{
+        display: flex;
+        padding: 20px 10px;
+        justify-content: center;
+    }
+    .homeswitcher{
+        width: 70%;
+        margin: 50px auto;
+        display: block;
+        justify-content: space-between;
+        font-family: 'Lato', sans-serif;
+    }
+    .home-separator{
+        display: block;
+    }
+    .left-main{
+        left: 0;
+        width: 100%;
+        border-right: none;
+    }
+    .left-main-border{
+        margin-left:auto ;
+        margin-right: auto;
+        width: 90%;
+        
+    }
+    .right-main{
+        width: 95%;
+        top: 0;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #load-more{
+        text-decoration: none;
+        border: none;
+        background-color: rgb(204, 103, 25);
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 2px 10px;
+        
+        margin-bottom: 50px;
+    }
+}

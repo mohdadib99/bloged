@@ -1,0 +1,97 @@
+
+.only-card{
+    padding: 20px;
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Lato', sans-serif;
+}
+.only-postheader{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 2%;
+}
+.only-post-details h2{
+    color: grey;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    padding: 2% 5%;
+}
+
+.only-post-details p{
+    font-size: small;
+}
+
+.only-postheader h1{
+    padding: 20px 0px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.only-postheader-text{
+    width: 60%;
+}
+
+#only-post-image{
+    margin: auto;
+    align-items: baseline;
+    width: 350px;
+    padding: 10px 20px;
+    aspect-ratio: auto 350 / 200;
+    height: 200px;
+}
+.only-post-title{
+    word-wrap: break-word;
+    width: 90%;    
+}
+@media only screen and (max-width: 768px){
+    .only-card{
+        width: 75%;
+        padding: 20px;
+        margin: 50px auto; 
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: 'Lato', sans-serif;
+    }
+    .only-postheader{
+        display: block;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+    .only-postheader h1{
+        padding: 0px 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .only-post-details h2{
+        font-size: 15px;
+        font-weight: 400;
+        
+    }
+    .only-post-details p{
+        font-size: small;
+        font-weight: 800;
+        margin-top: 10%;
+    }
+    .only-postheader-text{
+        width: 100%;
+    }
+    .only-postheader-text h3{
+        font-size: 14px;
+    } 
+    
+
+    #only-post-image{
+        width: 230px;
+        padding: 0px;
+        aspect-ratio: auto 250 / 150;
+        height: 150px;
+    }
+}
+
+

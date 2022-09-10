@@ -1,0 +1,71 @@
+.create-form{
+    width: 33%;
+    position: fixed;
+    top: 15%;
+    left: 33%;
+    background-color: rgba(223, 228, 228, 0.371);
+    box-shadow: rgba(149, 157, 165, 0.419) 0px 8px 24px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.create-form .create-input-container{
+    padding: 20px;
+    /* display: flex; */
+}
+.create-form .create-input-container-text{
+    padding: 20px;
+    
+}
+.create-form .create-input-container-text textarea{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+    height: 150px; 
+}
+
+.create-input-container input{
+    display: inline;
+    float: inline-end;
+    padding: 10px;
+    border: none;
+}
+
+.create-form select{
+    width: 160px;
+    display: inline;
+    float: inline-end;
+    padding: 8px;
+    border: none;
+}
+.create-form button{
+    border-radius: 5px;
+    background-color: rgb(223, 228, 228);
+    width: 100px;
+    padding: 5px;
+    margin: 10% 40%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    .create-form{
+        width: 80%;
+        position: fixed;
+        left: 10%;
+        
+    }
+    .create-form input{
+        display: inline;
+        float: inline-end;
+        padding: 8px;
+    }
+    .create-form button{
+        border-radius: 5px;
+        background-color: rgb(223, 228, 228);
+        width: 100px;
+        padding: 5px;
+        margin: 10% 30%;
+        cursor: pointer;
+    }
+}

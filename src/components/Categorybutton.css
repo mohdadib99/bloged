@@ -1,0 +1,19 @@
+.category-button{
+    /* display:flex; */
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.category-button button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:rgb(233, 233, 233);; 
+    /* box-shadow: 4px 2px #bbb9b9; */
+    cursor:pointer;
+    border-radius: 15px;
+    padding: 5px 10px;
+}

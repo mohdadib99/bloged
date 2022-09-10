@@ -1,0 +1,23 @@
+.search-my{
+    margin: 5% auto;
+    width: 20%;
+    
+}
+
+.mypost-data{
+    transition: 1s ease-in-out;
+}
+
+#back{
+    width: 10%;
+    height: 20px;
+    margin: auto;
+    color: black;
+}
+
+@media only screen and (max-width: 768px){
+    .search-my{
+        margin: 15% auto;
+        width: 50%;
+    }
+}

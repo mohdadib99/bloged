@@ -1,0 +1,64 @@
+.card{
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.post-details{
+    padding: 20px;
+}
+.post-details h2{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+.postheader-text{
+    margin-right: auto;
+    word-wrap: break-word;
+    width: 50%;
+    
+}
+.postheader-text h3{
+    font-size: 13px;
+}
+#post-image{
+    margin: auto;
+    display: block;
+    width: 200px;
+    /* padding: 10px 20px; */
+    aspect-ratio: auto 200 / 134;
+    height: 134px;
+}
+.postheader-text h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#read-more{
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+@media only screen and (max-width: 768px){
+    .card{
+        width: 300px;
+        margin: 40px auto;
+    }
+    #post-image{
+        margin: auto;
+        display: block;
+        width: 100px;
+        /* padding: 10px 20px; */
+        aspect-ratio: auto 100 / 67;
+        height: 67px;
+    }
+}
